@@ -1,0 +1,36 @@
+{
+  "name": "@samuraitruong/php-cookie-challenge",
+  "version": "1.0.0",
+  "description": "Axios wrapper with automatic cookie challenge detection and processing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuraitruong/free-php-host-axios.git"
+  },
+  "keywords": [
+    "axios",
+    "cookie",
+    "challenge",
+    "interceptor",
+    "http-client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/samuraitruong/free-php-host-axios/issues"
+  },
+  "homepage": "https://github.com/samuraitruong/free-php-host-axios#readme",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0"
+  }
+}
