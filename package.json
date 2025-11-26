@@ -1,12 +1,13 @@
 {
   "name": "@samuraitruong/php-cookie-challenge",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "Axios wrapper with automatic cookie challenge detection and processing",
   "main": "src/index.js",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
-    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+    "publish:public": "npm publish --access public"
   },
   "repository": {
     "type": "git",
